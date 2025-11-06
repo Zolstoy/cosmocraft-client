@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://b1dhh55ff2wom"]
+
+[node name="StarLight" type="Node3D"]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+light_color = Color(0.996104, 0.960699, 0.952743, 1)
+light_energy = 1e+07
+omni_range = 10000.0
+omni_attenuation = 2.0
